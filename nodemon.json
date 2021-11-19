@@ -1,0 +1,6 @@
+{
+  "watch": ["frontend", "/media/Workspace/Dev/Projects/Modules/vue-input-text"],
+  "ext": "ts,vue,js,tsx,jsx,json",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "npm run dev"
+}

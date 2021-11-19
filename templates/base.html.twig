@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {# Run `composer require symfony/webpack-encore-bundle`
+           and uncomment the following Encore helpers to start using Symfony UX #}
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('main') }}
+        {% endblock %}
+        <script src="https://rawcdn.githack.com/Explosion-Scratch/ripple/dccaf32e995242fa4b63509003eba7ba6efb3195/ripple.js"></script>
+
+    </head>
+    <body>
+        <div id="app"></div>
+        {% block javascripts %}
+            {{ encore_entry_script_tags('main') }}
+        {% endblock %}
+    </body>
+</html>

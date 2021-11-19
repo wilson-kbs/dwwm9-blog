@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .ql-editor .ql-video {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+} */
