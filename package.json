@@ -13,7 +13,6 @@
   "author": "Wilson Kabalisa",
   "license": "ISC",
   "dependencies": {
-    "@kabaliserv/vue-input-text": "file:../../../../Projects/Modules/vue-input-text",
     "@kabaliserv/wavify": "^0.2.2",
     "clipboard": "^2.0.8",
     "quill": "^1.3.6",
